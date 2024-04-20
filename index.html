@@ -1,1 +1,60 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>DIG基礎26期生発表会</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>DIG基礎26期生発表会</h1>
+  </header>
+  
+  <section class="content">
+    <div class="profile-picture">
+      <!-- <img src="C:\Users\TY55782\OneDrive - トヨタ車体株式会社\デスクトップ\foundations\presentation\DIG基礎写真.jpg" alt="写真" width="300" height="200" style="border-radius: 1px;"> -->
+      <img src="https://raw.githubusercontent.com/IshikawaTakuma0716/IshikawaTakuma0716.fnd000026/main/DIG基礎写真.jpg" alt="写真" width="300" height="200" style="border-radius: 1px;">
+    </div>
+    </div>
+    <div class="introduction">
+      <h2 style="font-size: 40px;">自己紹介</h2>
+      <p style="font-size: 25px;">名前：石川拓磨</p>
+      <p style="font-size: 25px;">部署：トヨタ車体 デジタル変革推進部</p>
+      <p style="font-size: 25px;">住所：愛知県刈谷市</p>
+      <p style="font-size: 25px;">趣味<br><span style="font-size: 25px;">・サウナ<br>・岩盤浴<br>・テニス<br>・ボード</span></p>
+      <!-- <textarea id="introduction"></textarea> -->
+      <button id="fortune-button">今日の運勢</button>
+      <h3 id="fortune" class="hidden"></h3>
+      <button id="training-button">今日のトレーニング</button>
+      <h3 id="training" class="hidden"></h3>
+    </div>
+    <button id="training-result-button">今日のトレーニング結果</button>
+<div id="training-result-input" class="hidden">
+  <label for="jogging-distance">ジョギング距離（km）:</label>
+  <input type="number" id="jogging-distance" min="0" step="0.1" required><br>
+  <label for="push-ups">腕立て回数:</label>
+  <input type="number" id="push-ups" min="0" required><br>
+  <label for="sit-ups">腹筋回数:</label>
+  <input type="number" id="sit-ups" min="0" required><br>
+  <label for="squats">スクワット回数:</label>
+  <input type="number" id="squats" min="0" required><br>
+  <button id="save-training-button">保存</button>
+</div>
+<div id="training-history" class="hidden">
+  <h3>過去のトレーニング履歴</h3>
+  <ul id="training-list"></ul>
+  <button id="clear-training-history-button">履歴を削除</button>
+</div>
+  </section>
+  
+  <footer>
+    <p>ーーーDIG基礎を受講してーーー</p>
+    <p>プログラミング初心者で参加し最初は不安でいっぱいだったが、講師の方や他の受講生の皆様が優しく徐々に不安もなくなりました。</p>
+    <p>最初は変数の定義から勉強していたが、簡単なWEBサイトを作れるくらいまで成長することができました。</p>
+    <p>トレーニング履歴は残せたが、もっと見やすく表やグラフで履歴を残したかった。</p>
+    <p>手を出せなかった応用問題やナイトメア問題にも取り組みたい。</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
